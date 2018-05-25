@@ -27,6 +27,10 @@ You can verify installation of ffmpegthumbnailer by issuing the following comman
 
     $ heroku run "ffmpegthumbnailer -version"
 
+Testing
+-------
+Run tests using the [Buildpack testrunner](https://github.com/heroku/heroku-buildpack-testrunner)
+
 Updating
 --------
 To eliminate the need to compile ffmpeg on every push, this buildpack downloads a custom-built tarball of libraries and binaries.
