@@ -16,7 +16,7 @@ ENV_DIR=$3
 
 echo "-----> Install ffmpegthumbnailer"
 VENDOR_DIR="vendor/ffmpegthumbnailer"
-DOWNLOAD_URL="https://s3-us-west-1.amazonaws.com/b12-build/ffmpegthumbnailer.tar.gz"
+DOWNLOAD_URL="https://spackle.s3.amazonaws.com/vendor/ffmpegthumbnailer.tar.gz"
 
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 
